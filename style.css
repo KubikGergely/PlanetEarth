@@ -52,15 +52,25 @@ body {
   text-shadow: 2.5px 2.5px rgba(177, 175, 175, 0.705);
 }
 
+.container {
+  margin: 100px auto;
+  width: 85%;
+}
+
 .Afrika {
-  text-align: justify;
   font-family: Qilka;
-  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.Afrika p{
+  font-size: 150%;
 }
 
 .kep {
-  size: 50px 50px;
-  align-content: center;
+  max-width: 800px;
   float: left;
 }
 
@@ -70,8 +80,6 @@ body {
    bottom:0px;
    height:30px;
    width:100%;
-   
-
 }
 
 @font-face {
