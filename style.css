@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(/kepek/fold2.jpg); 
+    background-image: url(/kepek/background.gif);
     background-attachment: fixed;
     background-size: 1920px 1080px;
     color: white;
@@ -13,13 +13,12 @@ body {
 #navbar {
   min-height: 50px;
   text-align: center;
-  position: static; /* Make it stick/fixed */
-  top: -50px    ; /* Hide the navbar 50 px outside of the  top view */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  position: static;
+  top: -50px;
+  width: 100%;
+  transition: top 0.3s;
 }
 
-/* Style the navbar links */
 #navbar a{
 
   display: inline-block;
@@ -47,7 +46,7 @@ body {
 .landingleiras {
   margin-left: 350px;
   margin-right: 350px;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   font-size: 150%;
   text-align: center;
   font-family: Qilka;
@@ -82,10 +81,42 @@ body {
   margin-left: 20px;
 }
 
+.kontinensbal {
+  font-family: Qilka;
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.kontinensbal p {
+  font-size: 150%;
+  text-shadow: 5px 5px rgba(68, 68, 68, 0.705);
+  margin-right: 20px;
+  text-align: right;
+}
+
+
 .kep {
   max-width: 800px;
   float: left;
   margin-bottom: 100px;
+  border-radius: 30px;
+}
+
+.kepkozep {
+  max-width: 900px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kepjobb {
+  max-width: 800px;
+  float: right;
+  margin-bottom: 100px;
+  border-radius: 30px;
 }
 
 .copyright{   
